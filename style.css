@@ -1,0 +1,240 @@
+@import url('https://fonts.cdnfonts.com/css/lato');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	background: #FFFFFF;
+}
+
+img{
+	display: block;
+	max-width: 100%;
+}
+
+.container{
+	width: 1140px;
+	margin:auto;
+}
+
+.body {
+    width: 1600px;
+}
+
+.Header{
+	background-color: #222222;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    width: 1600px;
+	height: 75px;    
+}
+
+.logos{
+    display: flex;
+    justify-content:flex-start;
+    gap: 41px;
+}
+
+.lupa{
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+}
+
+.kabinet{
+    margin-left: 819px;
+    width: 158.996px;
+    height: 29px;
+    flex-shrink: 0;
+}
+
+.Promo{
+    width: 1600px;
+    height: 764px;
+    background-color:  #F1E4E6;
+    display: flex;
+	align-items: center;
+}
+
+.Text{
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+}
+
+h1{
+    color: #222;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+h2{color: #222;
+font-family: Lato;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.h3{color: #F16D7F;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.Offer{
+    margin-top: 65px;
+    margin-bottom: 96px;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.item{
+    position: relative;
+}
+
+.item_img{
+    filter: brightness(40%);
+}
+
+.item_text{
+    position: absolute;
+    top: 40%;
+    color: #E8E8E8;
+    width: 100%;
+    text-align: center;
+}
+
+.item_text_1{
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.item_text_2{
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.item_2{
+    grid-column: span 3;
+}
+
+.Proguct{
+
+}
+
+.title{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+h4{
+    color: #222;
+font-family: Lato;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+h5{
+    color: #9F9F9F;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.product_band{
+    width: 1140px;
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.product_case{
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+    gap: 16px;
+
+background-color: #F8F8F8;;
+
+}
+
+.product_tite{
+    margin-top: 25px;
+    margin-left: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+
+}
+
+.product_text{
+    margin: 16px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    font-family: Lato;
+
+}
+
+.product_price{
+    margin-left: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #F16D7F;
+    font-family: Lato;
+
+    margin-bottom: 19px;
+}
+
+button{
+    width: 212px;
+    margin-bottom: 60px;
+    margin-left:457px;
+    margin-top: 48px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    border: 1px solid #F26376;
+    background: none;
+
+}
