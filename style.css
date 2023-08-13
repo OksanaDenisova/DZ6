@@ -238,6 +238,221 @@ button{
 
 }
 
+.Footer {
+    margin: 0 auto;
+    background: #222224;
+    width: 1600px;
+    height: 341px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.Footer_info {
+    height: 341px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+}
+
+.Footer_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 103px;
+    width: 360px;
+    height: 133px;
+    justify-content: space-between;
+}
+
+.Footer_img{
+    margin-bottom: 29px ;
+    width: 44.989px;
+    height: 31.935px;
+
+}
+
+.Footer_title {
+    color: #FBFBFB;
+    font-family: Lato;
+    font-size: 19.96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px ;
+}
+
+.Footer_text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #5D5D5D;
+}
+
+.Subscribe{
+    width: 1598.001px;
+    height: 448px;
+}
+
+.Footer_subscribe {
+    height: 448px;
+    background-image: url(./img/footer\ font.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Subscribe_blur {
+    background: rgba(244, 244, 244, 0.7);
+    height: 448px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 415px;
+}
+
+.Subscribe_info {
+    width: 360px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Subscribe_text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+    height: 99px;
+}
+
+.footer__subsc_subsc {
+    width: 557px;
+    height: 142px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Subscride_main_text {
+    text-align: center;
+}
+
+.Subscribe_main_text h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #222224;
+}
+
+.Subscribe_main_text h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #222224;
+
+    margin-bottom: 32px ;
+}
+
+.Subscribe_button{
+    width: 356px;
+    height: 49px;
+}
+
+
+.Subscribe_button input{
+    width: 256px;
+    height: 49px;
+    font-family: 'Lato';
+    font-size: 14px;
+    background: #E1E1E1;
+	border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+	overflow: hidden;
+    padding-left: 22px;
+    border: none;
+}
+
+.Subscribe_button button{
+    width: 100px;
+
+    font-family: 'Lato';
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background: #F16D7F;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+    padding-left: 15px;
+    border: none;
+
+}
+.Navbar{
+    width: 1598.001px;
+    height: 448px;
+
+}
+
+.Footer_navbar {
+    height: 79px;
+    width: 1600px;
+    margin: 0 auto;
+    align-items: center;
+    background: #222224;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Footer_navbar p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+    margin-left: 235px;
+}
+
+.Footer_navbar_icons {
+    width: 148px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 230px;
+}
+.Footer_navbar_icons a {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.fa {
+    width: 31px;
+    height: 32px;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.fa:hover {
+    background: #F16D7F;
+    color: #FFFFFF;
+} 
+
 @media (max-width: 1024px) {
 	.container {
         width: 1024px;
@@ -298,6 +513,67 @@ button{
 
     button{
         margin-left: 270px;
+    }
+
+    .Footer{
+        width: 768px;
+        height: 610px;
+    }
+
+    .Footer_info {
+        height: 610px;
+        width: 768px;
+        margin-top: 65px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .Footer_card{
+        margin: 0 auto;
+    }
+
+    .Subscribe{
+        width: 768px;
+        height: 693px;
+    }
+
+    .Footer_subscribe{
+        height: 693px;
+        width: 768px;
+        margin: 0 auto;
+        background-size: cover;
+    }
+    .Subscribe_blur {
+        height: 693px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 48px;
+    }
+
+    .Subscribe_main_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Navbar {
+        width: 768px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Footer_navbar p {
+        margin-left: 32px;
+    }
+
+    
+    .Footer_navbar_icons {
+        margin-right: 32px;
     }
 }
 
@@ -397,5 +673,86 @@ button{
     button{
         margin-left: 45px;
     }
+
+    .Footer{
+        width: 375px;
+        height: 610px;
+    }
+    
+    .footer__subsc_subsc {
+        width: 341px;
+        height: 123px;
+    }
+    
+    .Footer_card {
+        text-align: center;
+        height: 129.47px;
+    }
+    
+    .Footer_title {
+        line-height: 36px;
+        color: #FBFBFB;
+        font-size: 20px;
+    }
+    
+    .Footer_text {
+        font-size: 13.972px;
+    }
+
+    .Footer_subscribe{
+        display: flex;
+    }
+    
+    .Subscribe_info {
+        width: 343px;
+        height: 194px;
+        gap: 20px; 
+    }
+    
+    .Subscribe_blur {
+        height: 550px;
+    }
+
+    .Subscribe_main_text {
+        line-height: 153.2%; 
+    }
+
+    .Subscribe_button form{
+        width: 341px;
+        height: 47px;
+    }
+
+    .Subscribe_button input{
+        width: 245px;
+    }
+    
+    .Subscribe_button button{
+        width: 95.7px;
+        height: 47px;
+    }
+
+    .Navbar{
+        width: 375px;
+        height: 610px;
+
+    }
+
+    .Footer_navbar {
+        width: 375px;
+        height: 143px;
+        flex-direction: column-reverse;
+    }
+
+    .Footer_navbar p {
+        margin-left: 0px;
+        margin-bottom: 9px;
+    }
+    
+    .Footer_navbar_icons {
+        margin-right: 0px;
+        margin-top: 43px;
+    }
+
+    
 
 }
